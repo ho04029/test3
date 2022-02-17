@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*index*/
+
+#headerBox{
+	height: 60px;
+	line-height:60px; /* 수직으로 가운데 정렬효과 */
+	padding: 0;
+}
+
+#logoBox{
+	float:left;
+	height:60px;
+	line-height: 60px;
+}
+
+/* 메인메뉴고정 */
+/* 윈도우 스크롤시 메인메뉴 고정 */
+/* 클래스 선택자 css설정해 놓고 js파일에서 addClass로 사용 */
+.mainMenuFixed{
+	position:fixed;
+	top:0px;
+}
+
+/* 메뉴아래에 그림자 표시 */
+.mainMenuShadow{
+	box-shadow:0 3px 5px 0px gray;
+	/* offset-x/offset-y/blur-radius/spread-radius/color */
+}
